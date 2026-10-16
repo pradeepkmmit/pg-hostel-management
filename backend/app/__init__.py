@@ -1,0 +1,1 @@
+"""PG Hostel Management application package."""
