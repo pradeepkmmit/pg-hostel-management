@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f7f2">
+    <meta
+      name="description"
+      content="Find a comfortable place to stay. Explore thoughtfully managed PG rooms and get in touch with the team."
+    >
+    <title>StayNest — Find a place that feels like yours</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="StayNest home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none">
+            <path d="M5 15.2 16 6l11 9.2v11H5v-11Z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+            <path d="M12 26v-7h8v7M9.5 14h.01M22.5 14h.01" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span>staynest<span class="brand-period">.</span></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-navigation" aria-label="Main navigation">
+        <a href="#rooms">Our rooms</a>
+        <a href="#about">The StayNest way</a>
+        <a href="#contact">Get in touch</a>
+        <a href="#portal">Resident portal</a>
+        <a class="nav-cta" href="#rooms">Find your room <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero page-shell" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> A place to land, a place to grow</p>
+          <h1>Good days<br>start with <em>feeling</em><br><em>at home.</em></h1>
+          <p class="hero-description">
+            A comfortable room, the little things taken care of, and room to make a new place your own.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#rooms">Explore our rooms <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#about">A little about us <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-note">
+            <span class="note-icon" aria-hidden="true">✳</span>
+            <p>Made for settling in.<br><strong>Designed around you.</strong></p>
+          </div>
+        </div>
+
+        <div class="hero-art" role="img" aria-label="Illustration of a calm, sunlit room with a bed, window, and indoor plants">
+          <div class="art-sun"></div>
+          <div class="art-label"><span></span> YOUR NEXT CHAPTER</div>
+          <svg class="room-illustration" viewBox="0 0 620 590" fill="none" aria-hidden="true">
+            <path d="M0 0h620v590H0z" fill="#E9E9DB"/>
+            <path d="M0 0h620v430H0z" fill="#F1F0E5"/>
+            <path d="M0 430h620v160H0z" fill="#D9D8C8"/>
+            <path d="M0 430h620" stroke="#C4C3B3" stroke-width="3"/>
+            <rect x="365" y="55" width="183" height="226" rx="91.5" fill="#C8D8C4"/>
+            <path d="M456.5 55v226M365 167h183" stroke="#F1F0E5" stroke-width="9"/>
+            <path d="M380 74h153v88H380z" fill="#D9E6D4"/>
+            <path d="M380 174h153v92H380z" fill="#D5E1CE"/>
+            <path d="m380 74 76.5 91L533 74" fill="#E5E9D8"/>
+            <path d="M377 281h160" stroke="#A8B99F" stroke-width="8" stroke-linecap="round"/>
+            <path d="M350 290c36-42 45-77 38-105 25 23 33 58 22 105" fill="#69836B"/>
+            <path d="M561 344c-16-29-19-54-10-73-22 16-29 41-22 73" fill="#82977A"/>
+            <path d="M366 291c17-28 19-57 7-78 24 14 34 39 28 78" fill="#93A684"/>
+            <path d="M333 290h238v19H333z" fill="#BE9071"/>
+            <path d="M342 309h220v105H342z" fill="#D9B398"/>
+            <path d="M331 402h240v30H331z" fill="#B27C5C"/>
+            <path d="M352 432v34M550 432v34" stroke="#805944" stroke-width="8" stroke-linecap="round"/>
+            <path d="M358 330c0-13 10-23 23-23h49c13 0 23 10 23 23v18H358v-18Z" fill="#FBF8EF"/>
+            <path d="M465 323h76v81h-76z" fill="#D8E1CB"/>
+            <path d="M465 349h76" stroke="#F7F7F2" stroke-width="5"/>
+            <path d="M373 279c-10-23-8-44 4-61 12 19 15 40 10 61" fill="#516A54"/>
+            <path d="M143 300c-17-38-18-71-2-99 20 31 24 64 13 99" fill="#6C8669"/>
+            <path d="M119 300c-4-29 3-52 22-68 4 26-2 49-17 68" fill="#849A79"/>
+            <path d="M160 300c5-30 18-50 41-61-5 27-18 47-38 63" fill="#849A79"/>
+            <path d="M123 295c-11-30-10-55 3-76 14 24 17 49 8 75" fill="#9BA987"/>
+            <path d="M131 286h36l-5 44c-1 9-8 15-17 15s-16-6-17-15l-5-44h8Z" fill="#BD8564"/>
+            <path d="M123 286h52v11h-52z" fill="#D29A75"/>
+            <path d="M35 391h205v65H35z" fill="#D4C8AF"/>
+            <path d="M56 378h167v15H56z" fill="#BAA98D"/>
+            <path d="M67 456v18M208 456v18" stroke="#93816B" stroke-width="7" stroke-linecap="round"/>
+            <path d="M77 412h34v28H77zM121 412h34v28h-34zM165 412h34v28h-34z" fill="#F1EADF"/>
+            <path d="M270 332v-39M259 293h22l-3 40h-16l-3-40Z" fill="#C99570"/>
+            <path d="M266 283c-1-17 4-30 14-39 5 16 2 29-7 40" fill="#748C6C"/>
+            <path d="M250 378h40v11h-40z" fill="#9C816B"/>
+            <path d="M297 252v58M286 252h23" stroke="#87917B" stroke-width="4" stroke-linecap="round"/>
+            <circle cx="297" cy="252" r="16" fill="#F4E8CE"/>
+            <path d="M275 487h248" stroke="#C4C3B3" stroke-width="2"/>
+            <path d="M78 488h110v9H78z" fill="#C2B7A1"/>
+          </svg>
+          <div class="art-sticker"><span>✳</span><br>space to<br>be yourself</div>
+        </div>
+      </section>
+
+      <section class="promise-strip" id="about" aria-label="What makes a StayNest stay">
+        <div class="promise-inner page-shell">
+          <div class="promise-heading">
+            <span class="eyebrow">THE FEEL-GOOD DETAILS</span>
+            <p>Room to breathe.<br><em>Care in every detail.</em></p>
+          </div>
+          <div class="promise-item">
+            <span class="promise-number">01</span>
+            <div><h2>Ready when you are</h2><p>Move into a thoughtfully furnished space.</p></div>
+          </div>
+          <div class="promise-item">
+            <span class="promise-number">02</span>
+            <div><h2>The essentials, sorted</h2><p>Comfortable shared spaces and everyday ease.</p></div>
+          </div>
+          <div class="promise-item">
+            <span class="promise-number">03</span>
+            <div><h2>People who care</h2><p>Real support to help you feel settled.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="rooms-section page-shell" id="rooms">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span></span> FIND YOUR KIND OF COMFORT</p>
+            <h2>A room that feels<br><em>like your own.</em></h2>
+          </div>
+          <p class="section-aside">Different spaces, one feeling: right where you belong.</p>
+        </div>
+        <p class="room-listing-status" role="status" aria-live="polite">Loading available rooms…</p>
+        <div class="room-grid"></div>
+        <p class="sample-note">These starter listings and prices are examples; availability and pricing should be confirmed with the team.</p>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="contact-inner page-shell">
+          <div class="contact-copy">
+            <p class="eyebrow"><span></span> LET'S FIND YOUR PLACE</p>
+            <h2>Your next chapter<br>could start <em>right here.</em></h2>
+            <p>Tell us a little about what you're looking for. We'd love to help you find a space that feels right.</p>
+            <div class="contact-aside"><span aria-hidden="true">✳</span> No pressure. Just a friendly hello.</div>
+          </div>
+          <form class="contact-form">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder="What should we call you?" required>
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+            <label for="message">What are you looking for?</label>
+            <textarea id="message" name="message" rows="3" placeholder="A private room, a move-in date, a question..."></textarea>
+            <button class="button button-light" type="submit">Send an inquiry <span aria-hidden="true">↗</span></button>
+            <p class="form-notice" aria-live="polite"></p>
+            <p class="form-demo-note">Your inquiry is saved for the team to review. This demo does not send email.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <section class="portal-section" id="portal">
+      <div class="page-shell">
+        <div class="portal-heading">
+          <p class="eyebrow"><span></span> YOUR STAYNEST ACCOUNT</p>
+          <h2>Stay connected,<br><em>feel at home.</em></h2>
+          <p>Sign in to request a room, keep up with your stay, and reach the team when you need a hand.</p>
+        </div>
+
+        <div class="portal-auth" id="portal-auth">
+          <form class="portal-form" id="login-form">
+            <h3>Welcome back</h3>
+            <p>Sign in to your resident or admin account.</p>
+            <label for="login-email">Email address</label>
+            <input id="login-email" name="email" type="email" autocomplete="username" required>
+            <label for="login-password">Password</label>
+            <input id="login-password" name="password" type="password" autocomplete="current-password" required>
+            <button class="button button-primary" type="submit">Sign in</button>
+            <p class="portal-notice" aria-live="polite"></p>
+          </form>
+          <form class="portal-form" id="register-form">
+            <h3>New around here?</h3>
+            <p>Create a resident account to send a booking request.</p>
+            <label for="register-name">Your name</label>
+            <input id="register-name" name="name" autocomplete="name" required maxlength="100">
+            <label for="register-email">Email address</label>
+            <input id="register-email" name="email" type="email" autocomplete="email" required>
+            <label for="register-phone">Phone (optional)</label>
+            <input id="register-phone" name="phone" type="tel" autocomplete="tel">
+            <label for="register-password">Password (at least 12 characters)</label>
+            <input id="register-password" name="password" type="password" autocomplete="new-password" required minlength="12">
+            <button class="button button-primary" type="submit">Create resident account</button>
+            <p class="portal-notice" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="portal-dashboard" id="portal-dashboard" hidden>
+          <div class="portal-profile">
+            <div><p class="eyebrow">SIGNED IN</p><h3 id="portal-welcome"></h3><p id="portal-identity"></p></div>
+            <button class="button button-outline" id="logout-button" type="button">Sign out</button>
+          </div>
+
+          <div id="resident-dashboard" hidden>
+            <div class="portal-card-grid">
+              <section class="portal-card">
+                <h3>My profile</h3>
+                <form id="profile-form">
+                  <label for="profile-name">Your name</label><input id="profile-name" name="name" required maxlength="100">
+                  <label for="profile-phone">Phone</label><input id="profile-phone" name="phone" type="tel" autocomplete="tel">
+                  <button class="button button-primary" type="submit">Save profile</button>
+                  <p class="portal-notice" aria-live="polite"></p>
+                </form>
+              </section>
+              <section class="portal-card">
+                <h3>Request a room</h3>
+                <form id="booking-form">
+                  <label for="booking-room">Available room</label>
+                  <select id="booking-room" name="room_id" required></select>
+                  <label for="move-in-date">Preferred move-in date</label>
+                  <input id="move-in-date" name="move_in_date" type="date">
+                  <label for="booking-message">A note for the team (optional)</label>
+                  <textarea id="booking-message" name="message" rows="3" maxlength="1000"></textarea>
+                  <button class="button button-primary" type="submit">Send booking request</button>
+                  <p class="portal-notice" aria-live="polite"></p>
+                </form>
+              </section>
+              <section class="portal-card">
+                <h3>Ask for a repair</h3>
+                <form id="maintenance-form">
+                  <label for="maintenance-category">What needs attention?</label>
+                  <select id="maintenance-category" name="category" required>
+                    <option value="Plumbing">Plumbing</option>
+                    <option value="Electrical">Electrical</option>
+                    <option value="Furniture">Furniture</option>
+                    <option value="Cleaning">Cleaning</option>
+                    <option value="Other">Other</option>
+                  </select>
+                  <label for="maintenance-description">Tell us a little more</label>
+                  <textarea id="maintenance-description" name="description" rows="4" required maxlength="2000"></textarea>
+                  <button class="button button-primary" type="submit">Submit request</button>
+                  <p class="portal-notice" aria-live="polite"></p>
+                </form>
+              </section>
+            </div>
+            <div class="portal-card-grid portal-lists">
+              <section class="portal-card"><h3>My booking requests</h3><div id="resident-bookings" class="portal-list"></div></section>
+              <section class="portal-card"><h3>Maintenance requests</h3><div id="resident-maintenance" class="portal-list"></div></section>
+              <section class="portal-card"><h3>Rent records</h3><div id="resident-payments" class="portal-list"></div></section>
+              <section class="portal-card"><h3>Notices</h3><div id="resident-notices" class="portal-list"></div></section>
+            </div>
+          </div>
+
+          <div id="admin-dashboard" hidden>
+            <div class="portal-card-grid">
+              <section class="portal-card">
+                <h3>Room listings</h3>
+                <form id="room-form">
+                  <label for="room-name">Listing name</label><input id="room-name" name="name" required maxlength="100">
+                  <label for="room-type">Room type</label>
+                  <select id="room-type" name="room_type"><option value="private">Private</option><option value="shared">Shared</option><option value="suite">Suite</option></select>
+                  <label for="room-rent">Monthly rent (₹)</label><input id="room-rent" name="monthly_rent" type="number" min="0" required>
+                  <label for="room-description">Description</label><textarea id="room-description" name="description" rows="2" required maxlength="500"></textarea>
+                  <label for="room-tag">Short tag</label><input id="room-tag" name="tag" required maxlength="80">
+                  <button class="button button-primary" type="submit">Add room listing</button>
+                  <p class="portal-notice" aria-live="polite"></p>
+                </form>
+                <div id="admin-rooms" class="portal-list"></div>
+              </section>
+              <section class="portal-card">
+                <h3>Record rent payment</h3>
+                <form id="payment-form">
+                  <label for="payment-resident">Resident</label><select id="payment-resident" name="user_id" required></select>
+                  <label for="payment-amount">Amount (₹)</label><input id="payment-amount" name="amount" type="number" min="1" required>
+                  <label for="payment-period">Billing period</label><input id="payment-period" name="billing_period" placeholder="October 2026" required maxlength="30">
+                  <label for="payment-due">Due date</label><input id="payment-due" name="due_date" type="date" required>
+                  <label for="payment-status">Status</label><select id="payment-status" name="status"><option value="due">Due</option><option value="paid">Paid</option></select>
+                  <label for="payment-note">Note (optional)</label><input id="payment-note" name="note" maxlength="500">
+                  <button class="button button-primary" type="submit">Save payment record</button>
+                  <p class="portal-notice" aria-live="polite"></p>
+                </form>
+              </section>
+              <section class="portal-card"><h3>Rent records</h3><div id="admin-payments" class="portal-list"></div></section>
+              <section class="portal-card">
+                <h3>Publish a notice</h3>
+                <form id="notice-form">
+                  <label for="notice-title">Title</label><input id="notice-title" name="title" required maxlength="150">
+                  <label for="notice-message">Message</label><textarea id="notice-message" name="message" rows="4" required maxlength="3000"></textarea>
+                  <button class="button button-primary" type="submit">Publish notice</button>
+                  <p class="portal-notice" aria-live="polite"></p>
+                </form>
+              </section>
+            </div>
+            <div class="portal-card-grid portal-lists">
+              <section class="portal-card"><h3>Booking requests</h3><div id="admin-bookings" class="portal-list"></div></section>
+              <section class="portal-card"><h3>Maintenance requests</h3><div id="admin-maintenance" class="portal-list"></div></section>
+              <section class="portal-card"><h3>Residents</h3><div id="admin-residents" class="portal-list"></div></section>
+              <section class="portal-card"><h3>Notices</h3><div id="admin-notices" class="portal-list"></div></section>
+              <section class="portal-card"><h3>Visitor inquiries</h3><div id="admin-inquiries" class="portal-list"></div></section>
+            </div>
+          </div>
+          <p class="portal-global-notice" id="portal-global-notice" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none">
+            <path d="M5 15.2 16 6l11 9.2v11H5v-11Z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+            <path d="M12 26v-7h8v7M9.5 14h.01M22.5 14h.01" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span>staynest<span class="brand-period">.</span></span>
+      </a>
+      <p>A place to land, a place to grow.</p>
+      <a class="back-to-top" href="#home">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
